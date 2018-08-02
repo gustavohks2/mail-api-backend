@@ -1,0 +1,22 @@
+{
+    "name": "gustavo/learning-backend",
+    "type": "project",
+    "license": "MIT",
+    "description": "none",
+    "authors": [
+        {
+            "name": "Gustavo",
+            "email": "gustavohks2@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "phpmailer/phpmailer": "^6.0"
+    }
+}
